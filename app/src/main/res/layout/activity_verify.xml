@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/court">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.1"
+            android:background="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="THE SQUASH APP"
+        android:textColor="@color/colorSquapp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:id="@+id/txt"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:alpha="1"
+        android:hint="verification code"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/verify_code"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verify_code"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:alpha="1"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/verify_username"
+        android:text="username"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verify_username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/btn_shape"
+        android:text="go back"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/verify_go_back_button"
+        android:onClick="verifyGoBackBtn"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verify_username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="215dp"
+        android:background="@drawable/btn_signup"
+        android:text="verify"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/verify_button"
+        android:onClick="verifyBtn"
+        />
+
+</RelativeLayout>

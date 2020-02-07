@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#313331</color>
+    <color name="colorPrimaryDark">#CBDDDB</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorNice">#B4642525</color>
+    <color name="colorSquapp">#864E21</color>
+    <color name="colorLoginbutton">#B4A01E</color>
+</resources>

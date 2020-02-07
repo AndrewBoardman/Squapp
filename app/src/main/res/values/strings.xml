@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Squapp</string>
+    <string name="google_client">ID.apps.googleusercontent.com</string>
+    <string name="signUpbtn">Sign up</string>
+    <string name="signUp">Sign up form</string>
+    <string name="verifyBtn">verify</string>
+    <string name="signUpGoBack">Go Back</string>
+    <string name="signInButton">Sign in</string>
+    <string name="newCodeRequest">Request new code</string>
+    <string name="sName">Carry over name</string>
+    <string name="forgotPwordBtn">Forgot Password</string>
+    <string name="new_pword_username">new pword username</string>
+
+</resources>

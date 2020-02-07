@@ -1,0 +1,15 @@
+{
+    "squappenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-squapp-squappenv-103750-authRole",
+            "UnauthRoleArn": "arn:aws:iam::972467862180:role/amplify-squapp-squappenv-103750-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::972467862180:role/amplify-squapp-squappenv-103750-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-squapp-squappenv-103750-deployment",
+            "UnauthRoleName": "amplify-squapp-squappenv-103750-unauthRole",
+            "StackName": "amplify-squapp-squappenv-103750",
+            "StackId": "arn:aws:cloudformation:eu-west-1:972467862180:stack/amplify-squapp-squappenv-103750/23608eb0-4985-11ea-8b9e-0a62b96e8314",
+            "AmplifyAppId": "d2e459fae1g9c3"
+        }
+    }
+}
